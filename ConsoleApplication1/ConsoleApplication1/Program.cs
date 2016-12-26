@@ -10,10 +10,17 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What`s your name?");
             String name = Console.ReadLine();
-            Console.WriteLine("Hello, " + name);
+            if (name == "karim")
+            {
+                Console.WriteLine("Hello, " + name);
+            }
+            else
+            {
+                Console.WriteLine("Bye, " + name);
+            }
             Console.ReadLine();
+
             ;
         }
     }
