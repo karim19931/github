@@ -10,7 +10,11 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, world!!");
+            Console.WriteLine("What`s your name?");
+            String name = Console.ReadLine();
+            Console.WriteLine("Hello, " + name);
+            Console.ReadLine();
+            ;
         }
     }
 }
